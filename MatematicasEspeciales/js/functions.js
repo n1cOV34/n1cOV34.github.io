@@ -3,7 +3,7 @@ function CallmePagePresentation(){
     var retorno = "";
     $.ajax({
         type: 'POST',
-        url: 'presentacion.php',
+        url: 'presentacion.html',
         async: false,
         success: function(data) {
             retorno = data
